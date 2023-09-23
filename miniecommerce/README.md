@@ -1,21 +1,22 @@
 ## SHOPPING STORE
 
-Es una web para una empresa que ofrece servicios académicos freelance, se llevó a cabo una implementación destacada utilizando tecnologías basadas en JavaScript.
 
-Se desarrolló una interfaz de usuario utilizando React junto con la potente librería Tailwind CSS para lograr una apariencia estilizada y atractiva tanto en dispositivos de escritorio como en dispositivos móviles.
 
-Como resultado, se implementaron todas las funcionalidades necesarias, incluyendo botones de WhatsApp y enlaces a redes sociales, para facilitar una interacción fluida y accesible con los usuarios.
+## Configuración del proyecto:
 
-En cuanto a la gestión del proyecto, se aprovechó la robustez de GitHub como sistema de control de versiones, permitiendo una colaboración ágil y un seguimiento meticuloso de los cambios realizados. Además, para el despliegue de la aplicación, se hizo uso de la plataforma Vercel, asegurando una puesta en producción eficiente y confiable.
+Clona este repositorio en tu máquina local.
+Navega al directorio del proyecto: cd LobbyLair.
+Instala las dependencias del servidor: npm install.
+Navega al directorio del cliente: cd client.
+Instala las dependencias del cliente: npm install.
+Vuelve al directorio principal: cd ...
+Configura la conexión a la base de datos PostgreSQL en el archivo .env.
+Ejecuta el servidor y el cliente de forma simultánea: npm run dev.
 
-### Programming Languages
-[![Javascript][javascript]][js-url] [![React][React.js]][React-url] 
-
-#### Frontend Development
-[![HTMLl5][html5]][html-url] [![CSS3][css3]][css-url][![React][React.js]][React-url] [![Bootstrap][bootstrap]][bootstrap-url]
-
-#### Tools & Technologies
-[![Github][github]][github-url] 
+### Tecnologías Usadas
+* [![Javascript][javascript]][js-url] [![React][React.js]][React-url] 
+* [![HTMLl5][html5]][html-url] [![CSS3][css3]][css-url][![React][React.js]][React-url] 
+* [![Github][github]][github-url] 
 
 
 ### Contact Informations:
