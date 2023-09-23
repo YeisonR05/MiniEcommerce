@@ -15,7 +15,7 @@ Ejecuta el servidor y el cliente de forma simultánea: npm run dev.
 
 ### Tecnologías Usadas
 * [![Javascript][javascript]][js-url] [![React][React.js]][React-url] 
-* [![HTMLl5][html5]][html-url] [![CSS3][css3]][css-url] [![Github][github]][github-url] [Bootstrap]
+* [![HTMLl5][html5]][html-url] [![CSS3][css3]][css-url] [![Github][github]][github-url] [![Bootstrap]]
 
 
 ### Contact Informations:
