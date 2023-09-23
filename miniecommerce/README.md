@@ -12,7 +12,7 @@ En cuanto a la gestión del proyecto, se aprovechó la robustez de GitHub como s
 [![Javascript][javascript]][js-url] [![React][React.js]][React-url] 
 
 #### Frontend Development
-[![HTMLl5][html5]][html-url] [![CSS3][css3]][css-url][![React][React.js]][React-url] [![Bootstrap][Bootstrap]][Bootstrap-url]
+[![HTMLl5][html5]][html-url] [![CSS3][css3]][css-url][![React][React.js]][React-url] [![Bootstrap][bootstrap]][bootstrap-url]
 
 #### Tools & Technologies
 [![Github][github]][github-url] 
