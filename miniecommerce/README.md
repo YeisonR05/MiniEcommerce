@@ -15,7 +15,7 @@ Ejecuta el servidor y el cliente de forma simultánea: npm run dev.
 
 ### Tecnologías Usadas
 * [![Javascript][javascript]][js-url] [![React][React.js]][React-url] 
-* [![HTMLl5][html5]][html-url] [![CSS3][css3]][css-url] [![Github][github]][github-url ![Bootstrap]
+* [![HTMLl5][html5]][html-url] [![CSS3][css3]][css-url] [![Github][github]][github-url ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 
 
@@ -71,7 +71,7 @@ Correo: yeison.ramirez@correounivalle.edu.co
 [firebase]: https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white
 [firebase-url]: https://firebase.google.com/?hl=es
 [Bootstrap]: (https://getbootstrap.com/) 
-![Bootstrap]: (https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+
 
 
 <!--Linkedin -->
