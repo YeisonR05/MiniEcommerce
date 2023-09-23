@@ -1,0 +1,44 @@
+/* Navbar*/
+.navbar-nav li a{
+    font-size: 18px;
+}
+
+.card{
+    transition: all 0.5s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+.card-img-top{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    transition: all 0.5s ease;
+    
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+a:hover {
+    color: #0D6EFD;
+}	
+
+p{
+    font-size: 17px;
+}
+
+/* CSS para aplicar el efecto de zoom */
+.zoomable-image {
+    transform: scale(1); /* Escala inicial */
+  }
+  
+  .zoomable-image:hover {
+    transform: scale(1.1); /* Escala al pasar el cursor */
+  }
+  
