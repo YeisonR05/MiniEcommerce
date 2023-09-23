@@ -13,17 +13,6 @@ Los componentes "Cart" y "Checkout" son pilares esenciales en la experiencia de 
 
 Los componentes Contact y About en React son fundamentales para la página de contacto y la sección "Acerca de Nosotros" en SHOPPING STORE. Contact permite a los usuarios enviar mensajes a través de un formulario que incluye campos para nombre, correo electrónico y mensaje, además de enlaces a redes sociales. Mientras tanto, About ofrece una introducción a la tienda en línea, resaltando su enfoque en moda, joyería y electrónica. Invita a explorar la variedad de productos y se complementa con una imagen ilustrativa. También facilita la interacción al dirigir a los usuarios a la página de contacto. Estos componentes son esenciales para la comunicación y proporcionan una visión general de la plataforma.
 
-## Configuración del proyecto:
-
-Clona este repositorio en tu máquina local.
-Navega al directorio del proyecto: cd LobbyLair.
-Instala las dependencias del servidor: npm install.
-Navega al directorio del cliente: cd client.
-Instala las dependencias del cliente: npm install.
-Vuelve al directorio principal: cd ...
-Configura la conexión a la base de datos PostgreSQL en el archivo .env.
-Ejecuta el servidor y el cliente de forma simultánea: npm run dev.
-
 ### Tecnologías Usadas
 [![Javascript][javascript]][js-url] [![React][React.js]][React-url] 
 [![HTMLl5][html5]][html-url] [![CSS3][css3]][css-url] [![Github][github]][github-url] ![Bootstrap]
