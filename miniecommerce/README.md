@@ -70,7 +70,7 @@ Correo: yeison.ramirez@correounivalle.edu.co
 [socket.io-url]: https://socket.io/
 [firebase]: https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white
 [firebase-url]: https://firebase.google.com/?hl=es
-[Bootstrap]: (https://getbootstrap.com/) ![Bootstrap]:(https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+[Bootstrap](https://getbootstrap.com/) ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 
 <!--Linkedin -->
