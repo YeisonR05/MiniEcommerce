@@ -16,7 +16,7 @@ Configura la conexión a la base de datos PostgreSQL en el archivo .env.
 Ejecuta el servidor y el cliente de forma simultánea: npm run dev.
 
 ### Tecnologías Usadas
-* [![Javascript][javascript]][js-url] [![React][React.js]][React-url] 
+* [![Javascript][javascript]][js-url] [![React][React.js]][React-url] [![React][React.js]][React-url][![Redux][Redux-query]][Redux-url]
 * [![HTMLl5][html5]][html-url] [![CSS3][css3]][css-url] [![Github][github]][github-url] ![Bootstrap]
 
 
