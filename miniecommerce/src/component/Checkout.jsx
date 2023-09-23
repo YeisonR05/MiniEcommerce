@@ -1,5 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
+import { NavLink } from 'react-router-dom';
 
 const Checkout = () => {
   const state = useSelector((state) => state.addItem)
@@ -40,6 +41,11 @@ const Checkout = () => {
                 <button type="submit" className="btn btn-secondary">Send</button>
               </div>
             </form>
+            <div>
+            <NavLink to="/cart" className="btn btn-outline-dark px-4 my-3">
+            Back
+          </NavLink>
+            </div>
           </div>
           <div className="col-md-7 col-lg-8">
             <h4 className="mb-3">Billing address</h4>
@@ -201,12 +207,12 @@ const Checkout = () => {
                   </div>
                 </div>
               </div>
-
               <hr className="my-4" />
-
               <button className="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
             </form>
           </div>
+        </div>
+        <div>
         </div>
       </div>
     </>

@@ -3,8 +3,7 @@ import React from "react";
 const Login = () => {
   return (
     <>
-
-      <button type="button" className="btn btn-outline-primary ms-auto" data-bs-toggle="modal" data-bs-target="#LoginModal">
+      <button type="button" className="btn btn-outline-primary ms-2 my-1" data-bs-toggle="modal" data-bs-target="#LoginModal">
         <span className="fa fa-sign-in me-1"></span>Login
       </button>
 
@@ -18,10 +17,10 @@ const Login = () => {
             </div>
             <div className="modal-body">
               <button className="btn btn-primary w-100 mb-3">
-               <span className="fa fa-google me-2"></span> Sing in With Google
+                <span className="fa fa-google me-2"></span> Sing in With Google
               </button>
               <button className="btn btn-primary w-100 mb-4">
-               <span className="fa fa-facebook me-2"></span> Sing in With Facebook
+                <span className="fa fa-facebook me-2"></span> Sing in With Facebook
               </button>
               <form>
                 <div className="mb-3">

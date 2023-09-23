@@ -32,6 +32,7 @@ const Navbar = () => {
             <NavLink className="navbar-brand mx-auto fw-bold fs-4" to="/">
               SHOPPING STORE
             </NavLink>
+            <br />
             <Login />
             <Signup />
             <CartBtn />

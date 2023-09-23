@@ -70,6 +70,11 @@ const Product = () => {
             }}
             className="zoomable-image"
           />
+          <div>
+          <NavLink to="/products" className="btn btn-outline-dark px-4 my-5">
+            Back
+          </NavLink>
+          </div>
         </div>
 
         <div className="col-md-6">
