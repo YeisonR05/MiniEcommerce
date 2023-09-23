@@ -1,6 +1,8 @@
 ## SHOPPING STORE
 
+Bienvenido a SHOPPING STORE, tu principal destino en línea para moda, joyería y electrónica de vanguardia. Hemos creado una colección que combina estilo e innovación, ofreciendo las últimas tendencias en ropa para hombres y mujeres, elegantes piezas de joyería y productos electrónicos de primer nivel. Nuestro compromiso es proporcionarte productos auténticos de alta calidad, garantizando una experiencia de compra fluida, respaldada por un servicio al cliente excepcional y una dedicación a prácticas comerciales éticas. En SHOPPING STORE, aspiramos a ser la plataforma de referencia donde la moda se encuentra con la tecnología, y cada compra es un paso hacia la expresión de tu personalidad única.
 
+## Características principales:
 
 ## Configuración del proyecto:
 
