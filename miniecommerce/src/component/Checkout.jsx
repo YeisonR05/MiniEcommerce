@@ -7,14 +7,15 @@ const Checkout = () => {
   let total = 0;
 
   const itemList = (item) => {
-    total = total + item.price;
+    const itemTotalPrice = item.price * item.quantity; 
+    total = total + itemTotalPrice; 
     return (
-      <li className="list-group-item d-flex justify-content-between lh-sm">
-      <div>
-        <h6 className="my-0">{item.title}</h6>
-      </div>
-      <span className="text-body-secondary">${item.price}</span>
-    </li>
+      <li className="list-group-item d-flex justify-content-between lh-sm" key={item.id}>
+        <div>
+          <h6 className="my-0">{item.title}</h6>
+        </div>
+        <span className="text-body-secondary">${itemTotalPrice}</span> 
+      </li>
     );
   }
 

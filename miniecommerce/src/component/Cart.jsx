@@ -12,6 +12,7 @@ const Cart = () => {
   }
 
   const cartItems = (cartItem) => {
+    const itemTotalPrice = cartItem.price * cartItem.quantity; 
     return (
       <div className="px-4 my-2 bg-light rounded-3" key={cartItem.id}>
         <div className="container py-4">
@@ -23,6 +24,8 @@ const Cart = () => {
             <div className="col-md-6">
               <h3>{cartItem.title}</h3>
               <p className='lead fw-bold'>${cartItem.price}</p>
+              <p>Cantidad: {cartItem.quantity}</p>
+              <p>Total: ${itemTotalPrice.toFixed(2)}</p>
             </div>
           </div>
         </div>
@@ -46,10 +49,11 @@ const Cart = () => {
   }
 
   const button = () => {
+    const totalPrice = state.reduce((total, cartItem) => total + cartItem.price * cartItem.quantity, 0); 
     return (
       <div className="container">
         <div className='mx-auto fw-bold my-3'>
-        {state.length !== 0 && <p>Total ${totalPrice.toFixed(2)}</p>}
+          {state.length !== 0 && <p>Total ${totalPrice.toFixed(2)}</p>}
         </div>
         <div className="row">
           <NavLink to="/checkout" className="btn btn-outline-primary mb-5 w-25">Proceed to checkout</NavLink>
@@ -57,8 +61,6 @@ const Cart = () => {
       </div>
     );
   }
-
-  const totalPrice = state.reduce((total, cartItem) => total + cartItem.price, 0);
 
   return (
     <>
