@@ -13,6 +13,8 @@ const addItems = (state = addItem, action) => {
       return state.filter((x)=>{
         return x.id !== action.payload.id
       })
+      
+      
 
 
       default: return state;

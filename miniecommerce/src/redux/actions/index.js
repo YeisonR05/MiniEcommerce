@@ -1,4 +1,4 @@
-export const addItem = (product) => {
+export const addItem = (product, quantity) => {
   return {
     type: "ADDITEM",
     payload: product
@@ -11,3 +11,4 @@ export const delItem = (product) => {
     payload: product
 }
 }
+

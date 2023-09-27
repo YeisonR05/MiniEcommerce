@@ -5,14 +5,19 @@ import Skeleton from "react-loading-skeleton";
 import { useDispatch } from "react-redux";
 import { addItem, delItem } from '../redux/actions/index';
 
-
 const Product = () => {
-
   const { id } = useParams();
   const [product, setProduct] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [cartBtn, setCartBtn] = useState("Add to Cart")
+  const [cartBtn, setCartBtn] = useState("Add to Cart");
+  const [quantity, setQuantity] = useState(1);
 
+  const handleQuantityChange = (event) => {
+    const value = event.target.value;
+    if (value >= 1) {
+      setQuantity(parseInt(value, 10));
+    }
+  };
 
   useEffect(() => {
     const getProduct = async () => {
@@ -22,20 +27,25 @@ const Product = () => {
       setLoading(false);
     }
     getProduct();
-  }, []);
+  }, [id]);
 
-  const dispatch = useDispatch()
-  const handleCart = (product) => {
-    dispatch(addItem(product))
-    if (cartBtn === "Add to Cart") {
+  const dispatch = useDispatch();
 
-      setCartBtn("Remove From Cart")
+  const handleCart = (product, quantity) => {
+    const isProductInCart = cartBtn === "Remove From Cart";
+
+    if (isProductInCart) {
+      for (let i = 0; i < quantity; i++) {
+        dispatch(delItem(product));
+      }
+      setCartBtn("Add to Cart");
+    } else {
+      for (let i = 0; i < quantity; i++) {
+        dispatch(addItem(product));
+      }
+      setCartBtn("Remove From Cart");
     }
-    else {
-      dispatch(delItem(product))
-      setCartBtn("Add to Cart")
-    }
-  }
+  };
 
   const Loading = () => {
     return (
@@ -55,6 +65,7 @@ const Product = () => {
       </>
     );
   }
+
   const ShowProduct = () => {
     return (
       <>
@@ -71,9 +82,9 @@ const Product = () => {
             className="zoomable-image"
           />
           <div>
-          <NavLink to="/products" className="btn btn-outline-dark px-4 my-5">
-            Back
-          </NavLink>
+            <NavLink to="/products" className="btn btn-outline-dark px-4 my-5">
+              Back
+            </NavLink>
           </div>
         </div>
 
@@ -90,8 +101,24 @@ const Product = () => {
             $ {product.price}
           </h3>
           <p className="lead">{product.description}</p>
-          <button className="btn btn-outline-dark px-4 py-2"
-            onClick={() => handleCart(product)}>
+          <div className="my-3" style={{ maxWidth: '75px' }} >
+            <label htmlFor="quantity" className="form-label" >
+              Quantity:
+            </label>
+            <input
+              type="number"
+              className="form-control"
+              id="quantity"
+              min="1"
+              value={quantity}
+              onChange={handleQuantityChange}
+              tyle={{ width: '50px', padding: '5px' }}
+            />
+          </div>
+          <button
+            className="btn btn-outline-dark px-4 py-2"
+            onClick={() => handleCart(product, quantity)}
+          >
             {cartBtn}
           </button>
           <NavLink to="/cart" className="btn btn-dark ms-2 px-4">
@@ -101,6 +128,7 @@ const Product = () => {
       </>
     );
   }
+
   return (
     <div>
       <div className="container py-4">
